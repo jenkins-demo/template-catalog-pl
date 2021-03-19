@@ -1,0 +1,17 @@
+version: 1
+
+name: Example pipeline template catalog
+description: "This will create a multibranch pipeline example job"
+
+type: pipeline-template
+templateType: MULTIBRANCH
+
+parameters:
+  - name: myparam_one
+    type: string
+    displayName: A param to use
+
+  - name: myparam_two
+    type: string
+    displayName: Yet another param
+
