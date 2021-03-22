@@ -20,5 +20,5 @@ multibranch:
     github:
       apiUri: "https://api.github.com/"
       repoOwner: "bvcelari"
-      repository: "https://github.com/bvcelari/es-shared-library"
+      repository: "es-shared-library"
 
