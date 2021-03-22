@@ -21,4 +21,7 @@ multibranch:
       apiUri: "https://api.github.com/"
       repoOwner: "bvcelari"
       repository: "es-shared-library"
+      credentialsId: "bvce_token_git"
+
+     
 
