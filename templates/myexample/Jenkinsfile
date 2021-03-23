@@ -10,6 +10,16 @@ def Map jobParameter = [
 
 // Calling the CI Pipeline
 methodtester()
+
+
+/*    parameters {
+        string(name: 'myparam_one', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
+
+        text(name: 'myparam_two', defaultValue: '', description: 'Enter some information about the person')
+
+    }*/
+
+
 ********/
 library 'es-shared-library@master'
 
@@ -17,12 +27,6 @@ library 'es-shared-library@master'
 
 pipeline {
     agent any
-/*    parameters {
-        string(name: 'myparam_one', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
-
-        text(name: 'myparam_two', defaultValue: '', description: 'Enter some information about the person')
-
-    }*/
     stages {
         stage('Example') {
             steps {
