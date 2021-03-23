@@ -11,7 +11,8 @@ def Map jobParameter = [
 // Calling the CI Pipeline
 methodtester()
 ********/
-@Library('es-shared-library')_
+library 'my-shared-library@master'
+
 
 
 pipeline {
