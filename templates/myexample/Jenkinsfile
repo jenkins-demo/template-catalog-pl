@@ -30,6 +30,9 @@ pipeline {
 
                 echo "Biography: ${params.myparam_two}"
 
+                methodtester()
+
+              
             }
         }
     }
