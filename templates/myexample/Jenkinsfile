@@ -31,8 +31,10 @@ pipeline {
         stage('Example') {
             steps {
                 echo "Hello new ${params.myparam_one}"
+                echo "Hello new ${myparam_one}"
 
                 echo "Biography: ${params.myparam_two}"
+                echo "Biography: ${myparam_two}"
 
                 methodtester()
 
