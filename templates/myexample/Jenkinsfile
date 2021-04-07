@@ -27,9 +27,7 @@ library 'es-shared-library@master'
 node() {
     stage('Example') {
                 sh 'echo "Hello new ${myparam_one}"'
-
                 sh 'echo "Biography: ${myparam_two}"'
-
                 methodtester()
         
     }
