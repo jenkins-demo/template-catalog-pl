@@ -23,23 +23,17 @@ methodtester()
 /********/
 library 'es-shared-library@master'
 
+node() {
+    stage('Example') {
+                sh 'echo "Hello new ${params.myparam_one}"'
+                sh 'echo "Hello new ${myparam_one}"'
 
-
-pipeline {
-    agent any
-    stages {
-        stage('Example') {
-            steps {
-                echo "Hello new ${params.myparam_one}"
-                echo "Hello new ${myparam_one}"
-
-                echo "Biography: ${params.myparam_two}"
-                echo "Biography: ${myparam_two}"
+                sh 'echo "Biography: ${params.myparam_two}"'
+                sh 'echo "Biography: ${myparam_two}"'
 
                 methodtester()
-
-              
-            }
         }
     }
 }
+
+
