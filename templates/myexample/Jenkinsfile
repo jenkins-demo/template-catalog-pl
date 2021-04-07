@@ -24,7 +24,6 @@ methodtester()
 library 'es-shared-library@master'
 
 node() {
-    checkout scm
     stage('Example') {
                 sh 'echo "Hello new ${params.myparam_one}"'
                 sh 'echo "Hello new ${myparam_one}"'
