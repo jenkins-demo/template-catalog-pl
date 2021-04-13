@@ -1,1 +1,1 @@
-# template-catalog-pl
+# Demo Catalog
