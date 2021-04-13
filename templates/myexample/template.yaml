@@ -1,19 +1,15 @@
 version: 1
 
-name: Example pipeline template catalog
-description: "This will create a multibranch pipeline example job"
+name: Catalog overriding the default CloudBees SCM Reporting configuration
+description: "This will create a multibranch pipeline example job with overriden CB SCM Reporting cfg"
 
 type: pipeline-template
 templateType: MULTIBRANCH
 
 parameters:
-  - name: myparam_one
+  - name: just_a_param
     type: string
-    displayName: A param to use
-
-  - name: myparam_two
-    type: string
-    displayName: Yet another param
+    displayName: "Just a param to have something in the configuration"
 
 multibranch:
   branchSource:
