@@ -1,6 +1,6 @@
 version: 1
 
-name: Catalog overriding the default CloudBees SCM Reporting configuration
+name: "Catalog overriding the default CloudBees SCM Reporting configuration"
 description: "This will create a multibranch pipeline example job with overriden CB SCM Reporting cfg"
 
 type: pipeline-template
