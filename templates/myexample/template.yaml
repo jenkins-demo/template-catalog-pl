@@ -19,9 +19,9 @@ multibranch:
   branchSource:
     github:
       apiUri: "https://api.github.com/"
-      repoOwner: "bvcelari"
-      repository: "es-shared-library"
-      credentialsId: "bvce_token_git"
+      repoOwner: "jenkins-demo/"
+      repository: "simple-maven-project-with-tests"
+      credentialsId: "jenkins-demo"
 
      
 
