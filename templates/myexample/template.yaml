@@ -19,7 +19,7 @@ multibranch:
   branchSource:
     github:
       apiUri: "https://api.github.com/"
-      repoOwner: "jenkins-demo/"
+      repoOwner: "jenkins-demo"
       repository: "simple-maven-project-with-tests"
       credentialsId: "jenkins-demo"
 
