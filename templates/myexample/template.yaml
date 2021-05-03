@@ -22,8 +22,10 @@ multibranch:
       - cloudBeesSCMReporting:
           visibleLinesOnly: true
           handlers:
-            endBuildError:
+          - endBuildError:
               maxLogLines: 50
+          - stage: all
+          - junit: ""
             
             
           
