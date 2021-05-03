@@ -24,7 +24,7 @@ multibranch:
           handlers:
             endBuildError:
               maxLogLines: 50
-            stage: all
+            
             
           
       
