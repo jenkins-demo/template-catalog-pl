@@ -21,6 +21,10 @@ multibranch:
       traits:
       - cloudBeesSCMReporting:
           visibleLinesOnly: true
+          handlers:
+            endBuildError:
+              maxLogLines: 50
+            stage: all
             
           
       
