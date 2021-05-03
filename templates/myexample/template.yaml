@@ -26,6 +26,7 @@ multibranch:
               maxLogLines: 50
           - stage:
               verbosity: all
+          - junit
 
             
             
