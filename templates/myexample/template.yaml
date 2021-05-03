@@ -20,12 +20,12 @@ multibranch:
       credentialsId: "jenkins-demo"
       traits:
       - cloudBeesSCMReporting:
-        handlers:
-          endBuildError:
-            maxLogLines: 50
-          stage: all
-          junit: true
-        visibleLinesOnly: true
+          handlers:
+            endBuildError:
+              maxLogLines: 50
+            stage: all
+            junit: true
+          visibleLinesOnly: true
             
           
       
