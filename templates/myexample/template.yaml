@@ -24,7 +24,7 @@ multibranch:
           endBuildError:
             maxLogLines: 50
           stage: all
-          junit
+          junit: true
         visibleLinesOnly: true
             
           
