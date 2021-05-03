@@ -18,6 +18,17 @@ multibranch:
       repoOwner: "jenkins-demo"
       repository: "simple-maven-project-with-tests"
       credentialsId: "jenkins-demo"
+      traits:
+      - cloudBeesSCMReporting:
+        handlers:
+          endBuildError:
+            maxLogLines: 50
+          stage: all
+          junit
+        visibleLinesOnly: true
+            
+          
+      
 
      
 
